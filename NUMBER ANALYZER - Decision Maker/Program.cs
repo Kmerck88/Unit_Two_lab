@@ -7,7 +7,9 @@ string usernum = Console.ReadLine();
 int userInput = int.Parse(usernum);
 
 
-if (userInput % 2 == 1 && userInput < 60)
+//If the integer entered is odd and less than 60, print the number entered and “Odd and less than 60.”  
+//for (userInput = 0; userInput <= 100; userInput+ 2)
+    if (userInput % 2 == 1 && userInput < 60)
 {
     Console.WriteLine("Odd and less than 60 ");
 }
@@ -31,6 +33,9 @@ else if (userInput % 2 == 0 && userInput > 60)
 else if (userInput % 2 == 1 && userInput > 60)
 {
     Console.WriteLine("Odd and greater than 60");
+
+
+
 }
 //else
 //{
